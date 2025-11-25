@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Tech Summit 2026</title>
+    <link rel="icon" href="img/microchip.ico">
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" width="300" height="200" alt="Logo del evento">
+        <h1>Future Tech Summit - ¡El futuro es hoy!</h1>
+        <p>Índice:</p>
+        <ul>
+            <li><a href="../index.html">Índice</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h2>Formulario de Inscripción al Evento</h2>
+
+        <h3>Agenda del Evento</h3>
+        <h4>Días del evento:</h4>
+        <ul>
+            <li>Día 1: IA y Blockchain</li>
+            <li>Día 2: IoT y Robótica</li>
+            <li>Día 3: Ciberseguridad</li>
+        </ul>
+
+        <h4>Temas Principales</h4>
+        <ul>
+            <li>Inteligencia Artificial y Machine Learning</li>
+            <li>Internet de las Cosas (IoT)</li>
+            <li>Computación Cuántica</li>
+            <li>Blockchain y Criptomonedas</li>
+            <li>Ciberseguridad y Protección de Datos</li>
+            <li>Robótica y Automatización</li>
+        </ul>
+
+        <form>
+            <div>
+                <label for="tipo">Tipo de pase:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Seleccione un pase</option>
+                    <option value="general">General</option>
+                    <option value="vip">VIP</option>
+                    <option value="estudiante">Estudiante</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="123456789" required>
+            </div>
+
+            <div>
+                <label for="puesto">Puesto:</label>
+                <select id="puesto" name="puesto" required>
+                    <option value="">Seleccione su puesto</option>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="profesional">Profesional</option>
+                    <option value="investigador">Investigador</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="18" max="99" required>
+            </div>
+
+            <div>
+                <p>Días a los que asistirá:</p>
+                <label><input type="checkbox" name="dia1" value="dia1"> Día 1</label><br>
+                <label><input type="checkbox" name="dia2" value="dia2"> Día 2</label><br>
+                <label><input type="checkbox" name="dia3" value="dia3"> Día 3</label>
+            </div>
+
+            <div>
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="40" required></textarea>
+            </div>
+
+            <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="contra">Contraseña:</label>
+                <input type="password" id="contra" name="contra" required>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <p>Teléfono: +34 987 65 43 21</p>
+        </div>
+        <div>
+            <p><b>&copy; 2026 Tech Events S.L.</b></p>
+        </div>
+
+        <a href="mailto:contacto@futuretech.com">contacto@futuretech.com</a>
+
+        <div>
+            <img src="img/instagram.svg" alt="Logo de Instagram">
+        </div>
+        <div>
+            <img src="img/linkdin.svg" alt="Logo de Linkedin">
+        </div>
+        <div>
+            <img src="img/twitter.svg" alt="Logo de Twitter">
+        </div>
+    </footer>
+</body>
+</html>
